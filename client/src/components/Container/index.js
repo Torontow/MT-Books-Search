@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-function Container() {
-    return (
-        <div>
-            
-        </div>
-    )
+function Container(props) {
+  return <div className="container-fluid">{props.children}</div>;
 }
 
-export default Container
+export default Container;
