@@ -3,12 +3,12 @@ import "./style.css"
 
 function Book() {
     return (
-        <div className="container">
+        <div className="container border border-2 border-dark rounded">
             <div className="row">
-                <div className="col-3">
+                <div className="col-2">
                     <img className="thumbnail" alt="" src=""/>
                 </div>
-                <div className="col-8">
+                <div className="col-9">
                     <h4>Title</h4>
                     <h4>Author</h4>
                     <h5>Description</h5>

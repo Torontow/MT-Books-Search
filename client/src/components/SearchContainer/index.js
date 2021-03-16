@@ -1,11 +1,12 @@
 import React from 'react'
+import Book from "../Book"
 
-function SearchBar() {
+function SearchContainer() {
     return (
         <div>
-            
+            <Book />
         </div>
     )
 }
 
-export default SearchBar
+export default SearchContainer
